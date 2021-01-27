@@ -1,0 +1,51 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from{
+        margin-top: 100%;
+        width: 300%;
+    
+    }
+
+    to {
+        margin-top: 0%;
+        width: 100%;
+    }
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.pair{
+    background-color: #ebbe1a;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(0,0,0,0.5);
+
+}
+
+.impair{
+    background-color: #033771;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(0,0,0,0.5);
+}
+
+.titre{
+    width:250px;
+  height:65px;
+  color:black;
+  line-height:65px;
+  font-size: 35px;
+  padding-right:15px;
+  text-align :center;
+  float:right;
+}
